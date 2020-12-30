@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-30T12:17:10.729Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="27DG6538zC7G9l2beHV1" version="14.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-30T12:17:43.357Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="OgxZrQ0PNkz2BpqwFK1_" version="14.1.3" type="github">
   <diagram id="5902n-foPaxJyTyFdvGW" name="Page-1">
-    <mxGraphModel dx="1360" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1360" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,7 +69,7 @@
         <mxCell id="BFam_49dZInnmD_Xnitz-34" value="sleep()结束&lt;br&gt;&lt;br&gt;join()结束&lt;br&gt;&lt;br&gt;IO操作结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="525" y="185" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BFam_49dZInnmD_Xnitz-35" value="Terminated 结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="BFam_49dZInnmD_Xnitz-35" value="Terminated 终止" style="ellipse;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="990" y="305" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BFam_49dZInnmD_Xnitz-37" value="正常结束/异常退出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
