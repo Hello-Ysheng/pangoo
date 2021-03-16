@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T06:21:25.868Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.4.4" etag="rUXW2plj8Eq5KQREQ5op" type="github"><diagram id="tkVoo8wtqFc0wKEJOZHR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-16T08:07:35.778Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="HM7m-RYREjE5E-evN66o" version="14.4.4" type="github">
+  <diagram id="tkVoo8wtqFc0wKEJOZHR" name="Page-1">
+    <mxGraphModel dx="1010" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oMau5cR5HWdRXwKxpaVh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oMau5cR5HWdRXwKxpaVh-1" target="oMau5cR5HWdRXwKxpaVh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMau5cR5HWdRXwKxpaVh-1" value="线程回收" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oMau5cR5HWdRXwKxpaVh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oMau5cR5HWdRXwKxpaVh-2" target="oMau5cR5HWdRXwKxpaVh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMau5cR5HWdRXwKxpaVh-2" value="记录线程执行&lt;br&gt;任务情况" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oMau5cR5HWdRXwKxpaVh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oMau5cR5HWdRXwKxpaVh-3" target="oMau5cR5HWdRXwKxpaVh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMau5cR5HWdRXwKxpaVh-3" value="线程引用移除线程池" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="670" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oMau5cR5HWdRXwKxpaVh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oMau5cR5HWdRXwKxpaVh-4" target="oMau5cR5HWdRXwKxpaVh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMau5cR5HWdRXwKxpaVh-4" value="线程池自适应当前状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="827" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oMau5cR5HWdRXwKxpaVh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oMau5cR5HWdRXwKxpaVh-6" target="oMau5cR5HWdRXwKxpaVh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMau5cR5HWdRXwKxpaVh-6" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oMau5cR5HWdRXwKxpaVh-7" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="980" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
