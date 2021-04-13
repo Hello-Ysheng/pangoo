@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T09:43:14.466Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="BgJuZVpxkO4pauAMROzK" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T09:46:45.731Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="zfGacAfi6Mi0P-uhhV8Z" version="14.5.10" type="github">
   <diagram id="tPFb_BtLQ1jVCadqv5yk" name="Page-1">
     <mxGraphModel dx="1344" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
         <mxCell id="CDaCnTjPj_GdH6hIjgy2-9" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="310" y="480" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="CDaCnTjPj_GdH6hIjgy2-10" value="业务线服务&lt;br&gt;tbl_payment落表&lt;br&gt;接受支付结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="CDaCnTjPj_GdH6hIjgy2-10" value="业务线等待支付结果&lt;br&gt;tbl_payment落表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="440" y="565" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CDaCnTjPj_GdH6hIjgy2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CDaCnTjPj_GdH6hIjgy2-11" target="CDaCnTjPj_GdH6hIjgy2-23">
