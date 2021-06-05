@@ -1,1 +1,447 @@
-<mxfile host="app.diagrams.net" modified="2021-06-05T03:28:43.394Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.7.2" etag="zNGdWJ_4lhCKie_iKGz6" type="github"><diagram id="PXquPTrcZskZ80pjdx8t">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-05T07:38:25.532Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="uFq-uWDCxvC9eODSjfK3" version="14.7.2" type="github">
+  <diagram id="PXquPTrcZskZ80pjdx8t" name="Page-1">
+    <mxGraphModel dx="2031" dy="1293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="Uwja3qmeU2I-m4GYkvQM-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-2" target="Uwja3qmeU2I-m4GYkvQM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-2" target="Uwja3qmeU2I-m4GYkvQM-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="250" />
+              <mxPoint x="540" y="190" />
+              <mxPoint x="1380" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-2" target="Uwja3qmeU2I-m4GYkvQM-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="150" />
+              <mxPoint x="2416" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-2" value="判断锁状态&lt;br&gt;锁标志位" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-4" target="Uwja3qmeU2I-m4GYkvQM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-4" target="Uwja3qmeU2I-m4GYkvQM-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-4" value="是否为偏向锁&lt;br&gt;偏向锁标志位" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-6" value="01" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="320" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-7" value="CAS操作&lt;br&gt;将对象MarkWord替换为当前线程ID" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="490" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-9" value="0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-13" value="失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="544" y="560" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-14" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;线程访问同步代码&lt;/span&gt;&#xa;&#xa;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-15" target="Uwja3qmeU2I-m4GYkvQM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-15" value="偏向锁撤销" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="485" y="600" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-16" target="Uwja3qmeU2I-m4GYkvQM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-16" value="暂停持有偏向锁&lt;br&gt;的线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="490" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-18" value="持有偏向锁的线程到达全局安全点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="680" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-19" target="Uwja3qmeU2I-m4GYkvQM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-19" target="Uwja3qmeU2I-m4GYkvQM-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-19" value="检查持有偏向锁&lt;br&gt;线程的运行状态" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="480" y="840" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-21" target="Uwja3qmeU2I-m4GYkvQM-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-21" value="持有偏向锁的当前线程释放锁&lt;br&gt;空|(偏向锁标志位)0|(锁标志位)01" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="20" y="850" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-23" value="未活动/已退出同步代码块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="264" y="860" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-24" target="Uwja3qmeU2I-m4GYkvQM-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-24" target="Uwja3qmeU2I-m4GYkvQM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-24" value="检查对象头MarkWord中记录的Thread ID是否与当前线程相同" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="470" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-26" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-27" target="Uwja3qmeU2I-m4GYkvQM-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-27" value="获得偏向锁&lt;br&gt;ThreadID|epoch|age|(偏向锁标志位)0|(锁标志位)01" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="145" y="600" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-29" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="564.5" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-30" value="执行同步代码块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33FF99;" vertex="1" parent="1">
+          <mxGeometry x="240" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-33" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="490" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-34" target="Uwja3qmeU2I-m4GYkvQM-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-34" value="唤醒原持有&lt;br&gt;偏向锁的线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="55" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-38" target="Uwja3qmeU2I-m4GYkvQM-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-38" value="当前线程栈中创建锁记录Lock Record" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-39" target="Uwja3qmeU2I-m4GYkvQM-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-39" value="将对象头Markw拷贝到锁记录中" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-42" target="Uwja3qmeU2I-m4GYkvQM-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-42" target="Uwja3qmeU2I-m4GYkvQM-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-42" value="CAS操作将对象MarkWord替换为指向锁记录的指针" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-44" target="Uwja3qmeU2I-m4GYkvQM-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-44" value="获得轻量级锁&lt;br&gt;指向当前线程锁记录|(锁标志位)00" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1277.5" y="600" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-46" value="成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="560" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-48" target="Uwja3qmeU2I-m4GYkvQM-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-48" target="Uwja3qmeU2I-m4GYkvQM-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-48" value="检查MarkWord中的指针是否已经指向当前线程的某个栈帧" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="590" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-50" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="607" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-52" value="失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="543" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-54" target="Uwja3qmeU2I-m4GYkvQM-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-54" target="Uwja3qmeU2I-m4GYkvQM-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-54" value="自旋" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1708" y="480" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-56" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1755" y="610" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-58" value="多次尝试&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1535" y="483" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-59" target="Uwja3qmeU2I-m4GYkvQM-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-59" value="执行同步代码块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33FF99;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-61" target="Uwja3qmeU2I-m4GYkvQM-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-61" value="轻量级锁释放" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="850" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.532;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1861" y="290" as="sourcePoint" />
+            <mxPoint x="2157.276" y="370.17999999999984" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-63" value="升级为重量级锁" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1733" y="260" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-65" value="到达PreBlockingSpin&lt;br&gt;设置的次数仍然失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1734" y="375" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-67" value="00" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="423" y="220" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-68" target="Uwja3qmeU2I-m4GYkvQM-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-68" value="升级为轻量级锁" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="760" y="850" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-70" value="未退出同步代码块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="860" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-71" target="Uwja3qmeU2I-m4GYkvQM-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-71" value="在持有偏向锁的线程栈中创建锁记录" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1002.5" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-73" target="Uwja3qmeU2I-m4GYkvQM-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-73" value="将对象头Markw拷贝到锁记录中" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1002.5" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-75" target="Uwja3qmeU2I-m4GYkvQM-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-75" value="获得轻量级锁&lt;br&gt;指向持有偏向锁线程锁记录|(锁标志位)00" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="938" y="480" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-77" target="Uwja3qmeU2I-m4GYkvQM-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-77" value="唤醒原持有&lt;br&gt;偏向锁线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1002.5" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-79" value="原持有偏向锁线程从安全点开始继续执行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33FF99;" vertex="1" parent="1">
+          <mxGeometry x="1002.5" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-82" target="Uwja3qmeU2I-m4GYkvQM-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-82" value="升级为重量级锁&lt;br&gt;指向重量级锁monitor的指针|(锁标志位)00" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="370" width="243" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-84" target="Uwja3qmeU2I-m4GYkvQM-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-84" value="mutex&lt;br&gt;挂起当前线程" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2351" y="370" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-88" value="10" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="130" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-89" target="Uwja3qmeU2I-m4GYkvQM-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-89" value="原持有锁的线程继续执行同步代码块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33FF99;" vertex="1" parent="1">
+          <mxGeometry x="2356" y="483" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-91" target="Uwja3qmeU2I-m4GYkvQM-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-91" value="重量级锁释放" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2351" y="600" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-93" value="唤醒阻塞线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2356" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-95" target="Uwja3qmeU2I-m4GYkvQM-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-95" target="Uwja3qmeU2I-m4GYkvQM-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-95" value="CAS操作将获得轻量级锁的线程的锁记录中的Display MarkWord写会对象头的MarkWord" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="850" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-97" target="Uwja3qmeU2I-m4GYkvQM-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-97" value="释放锁" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="720" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-99" value="失败，说明锁已经升级为重量级锁" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="810" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-100" value="唤醒挂起的线程&lt;br&gt;开始新的锁竞争" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1763" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-102" value="释放锁" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1758" y="850" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-104" value="成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="860" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-105" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#00FF00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="1000" as="sourcePoint" />
+            <mxPoint x="20" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-106" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#00FF00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="735" y="1000" as="sourcePoint" />
+            <mxPoint x="735" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-107" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="907" y="1010" as="sourcePoint" />
+            <mxPoint x="907" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-108" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1950" y="1006" as="sourcePoint" />
+            <mxPoint x="1950" y="56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-109" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#00FF00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="1000" as="sourcePoint" />
+            <mxPoint x="740" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-110" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#00FF00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="50" as="sourcePoint" />
+            <mxPoint x="740" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-111" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="60" as="sourcePoint" />
+            <mxPoint x="1950" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-112" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="1010" as="sourcePoint" />
+            <mxPoint x="1950" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-113" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2500" y="1013" as="sourcePoint" />
+            <mxPoint x="2500" y="63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-114" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="1010" as="sourcePoint" />
+            <mxPoint x="2500" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-115" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="1013" as="sourcePoint" />
+            <mxPoint x="1990" y="63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-116" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="60" as="sourcePoint" />
+            <mxPoint x="2500" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-117" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="1010" as="sourcePoint" />
+            <mxPoint x="2500" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-118" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="1013" as="sourcePoint" />
+            <mxPoint x="1990" y="63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-119" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2500" y="1013" as="sourcePoint" />
+            <mxPoint x="2500" y="63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-120" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="1010" as="sourcePoint" />
+            <mxPoint x="1950" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-121" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="60" as="sourcePoint" />
+            <mxPoint x="1950" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-122" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="907" y="1010" as="sourcePoint" />
+            <mxPoint x="907" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-123" value="重量级锁释放" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2351" y="600" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-124" value="释放锁" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1758" y="850" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-125" value="释放锁" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="720" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-126" value="轻量级锁释放" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="850" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-129" value="释放锁" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1758" y="850" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-130" value="释放锁" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="720" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-131" value="检查MarkWord中的指针是否已经指向当前线程的某个栈帧" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="590" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-132" value="检查对象头MarkWord中记录的Thread ID是否与当前线程相同" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="470" width="140" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
