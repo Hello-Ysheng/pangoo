@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-05T07:39:26.648Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Zc4Pxsr9SrrBhZ5vVYb4" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-05T07:44:39.743Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="hExI9f9u9NwCLo_oH_qn" version="14.7.2" type="github">
   <diagram id="PXquPTrcZskZ80pjdx8t" name="Page-1">
-    <mxGraphModel dx="2688" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1581" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,6 +48,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="600" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.713;entryY=-0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uwja3qmeU2I-m4GYkvQM-7" target="Uwja3qmeU2I-m4GYkvQM-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uwja3qmeU2I-m4GYkvQM-7" value="CAS操作&lt;br&gt;将对象MarkWord替换为当前线程ID" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
           <mxGeometry x="490" y="480" width="120" height="60" as="geometry" />
@@ -440,6 +443,9 @@
         </mxCell>
         <mxCell id="Uwja3qmeU2I-m4GYkvQM-132" value="检查对象头MarkWord中记录的Thread ID是否与当前线程相同" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="230" y="470" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwja3qmeU2I-m4GYkvQM-134" value="成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="550" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
