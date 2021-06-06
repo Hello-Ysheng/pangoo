@@ -1,1 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2021-06-06T01:29:21.513Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.7.2" etag="SOVUytvBYrRWqoCJ1df4" type="github"><diagram id="-ZNedz7htsrDXUXmK36g">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-06T07:13:02.627Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="fP4dhLMb0RsavAbgf4ZV" version="14.7.2" type="github">
+  <diagram id="-ZNedz7htsrDXUXmK36g" name="Page-1">
+    <mxGraphModel dx="1360" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="IDvUHwFpmM6Th0ose1Tv-1" target="IDvUHwFpmM6Th0ose1Tv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="IDvUHwFpmM6Th0ose1Tv-1" target="IDvUHwFpmM6Th0ose1Tv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="IDvUHwFpmM6Th0ose1Tv-1" target="IDvUHwFpmM6Th0ose1Tv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-1" value="@SpringBootApplication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-2" value="@SpringBootConfiguration&lt;br&gt;标记该注解修饰的类是配置类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="IDvUHwFpmM6Th0ose1Tv-3" target="IDvUHwFpmM6Th0ose1Tv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-3" value="@EnableAutoConfiguration&lt;br&gt;开启自动配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="210" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-4" value="@ComponentScan&lt;br&gt;根据扫描路径，把符合规则的类&lt;br&gt;装逼配到Spring容器中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="210" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;" edge="1" parent="1" source="IDvUHwFpmM6Th0ose1Tv-8" target="IDvUHwFpmM6Th0ose1Tv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-8" value="AutoConfigurationImportSelector.class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="330" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="IDvUHwFpmM6Th0ose1Tv-10" target="IDvUHwFpmM6Th0ose1Tv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-10" value="getCandidateConfigurations()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="450" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="IDvUHwFpmM6Th0ose1Tv-12" target="IDvUHwFpmM6Th0ose1Tv-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;" edge="1" parent="1" source="IDvUHwFpmM6Th0ose1Tv-12" target="IDvUHwFpmM6Th0ose1Tv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="IDvUHwFpmM6Th0ose1Tv-12" target="IDvUHwFpmM6Th0ose1Tv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="IDvUHwFpmM6Th0ose1Tv-12" target="IDvUHwFpmM6Th0ose1Tv-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="875" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-12" value="SpringFactoryLoader&lt;br&gt;将XX.jar/META.INF/spring.factories中记录的所有的xxAutoConfiguration文件加载到容器中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="570" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-14" value="loadFactories()&lt;br&gt;加载指定的factoryClass并实例化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="690" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-15" value="public static final String FACTORIES_RESOURCE_LOCATION = &quot;META-INFO/spring.factories&quot;&lt;br&gt;指定加载资源的路径" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="690" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-16" value="instantiateFactory()&lt;br&gt;对指定的factoryClass进行实例化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="690" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDvUHwFpmM6Th0ose1Tv-18" value="loadFactoryNames()&lt;br&gt;加载指定的factoryClass名称集合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="690" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
